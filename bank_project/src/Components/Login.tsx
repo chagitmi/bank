@@ -11,21 +11,20 @@ function Login() {
   const dispatch = useDispatch();
     return (
         <div className="Login dropdown">
-       <h2>Login</h2>
-       <input  id="UserName" type={'text'} placeholder="UserName"/>
-       <br></br>
-       <input id="Password" type={'password'} placeholder="Password"/>
-       <br></br>
-       <input className="dropbtn" placeholder="Dropdown"></input>
-         <div className="dropdown-content">
+        <h2>Login</h2>
+        <input id="UserName" type={'text'} placeholder="UserName" />
+        <br></br>
+        <input id="Password" type={'password'} placeholder="Password" />
+        <br></br>
+        <input className="dropbtn" placeholder="Dropdown"></input>
+        <div className="dropdown-content">
           <p>Customer</p>
           <p>Maneger</p>
-         </div>
-         <br></br>
-       <span >errors</span>
-       <br></br><br></br>
-         
-              <button >Submit</button>
+        </div>
+        <br></br>
+        <span>errors</span>
+        <br></br><br></br><br></br>
+        <button>Submit</button>
        
          </div>
          );
