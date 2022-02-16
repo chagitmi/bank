@@ -1,0 +1,46 @@
+.Login{
+
+    color: darkblue;
+}
+.Login>Button{
+    background-image: url('C:/Users/com/Desktop/שונות/react/Project/ProfilImg.JPG');
+    color: darkblue;
+    width: 100px;
+    height: 40px;
+    border-color: darkblue;
+    border-radius: 10px;
+    font-weight: bolder;
+   text-align: right;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    z-index: 1;
+  }
+  .dropbtn {
+    color: darkblue;
+    border: none;
+    cursor: pointer;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content p {
+    color: darkblue;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content p:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+ 

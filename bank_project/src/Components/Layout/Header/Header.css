@@ -1,0 +1,24 @@
+.Header{
+color: darkblue;
+text-align: center;
+display:flex;
+align-items: center;
+margin-left: 80px;
+}
+.Header>h1{
+    text-align: center;
+    margin-left: 250px;
+}
+.HeaderButton{
+    background-image: url('C:/Users/com/Desktop/שונות/react/Project/ProfilImg.JPG');
+    color: darkblue;
+    width: 85px;
+    height: 40px;
+    border-color: darkblue;
+    border-radius: 10px;
+    font-weight: bolder;
+   text-align: right;
+  margin-top: 20px;
+  margin-left: 5px;
+   
+}
