@@ -1,6 +1,9 @@
 .Login{
 
     color: darkblue;
+    background-image: url('C:/Users/com/Desktop/Project/home.JPG');
+    width: 1000px;;
+    height: 500px;
 }
 .Login>Button{
     background-image: url('C:/Users/com/Desktop/שונות/react/Project/ProfilImg.JPG');

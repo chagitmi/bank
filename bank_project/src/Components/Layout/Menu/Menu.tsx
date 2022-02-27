@@ -30,11 +30,10 @@ function Menu() {
             <Link to='/customers'>
                     <li>Customers</li>
             </Link>
-            <Link to='/movements'>
+            <Link to='/AddMovement'>
                     <li>Add Movement</li>
             </Link>
             </ul>
-        <a href="#">About</a>
         </nav>
          </div>
          )

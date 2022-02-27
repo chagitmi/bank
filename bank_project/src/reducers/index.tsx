@@ -1,7 +1,7 @@
 import loggedReducer from './isLogged';
 import {combineReducers} from 'redux';
 
-const allReducers= combineReducers({
+const allReducers=combineReducers({
     isLogged:loggedReducer
 });
 

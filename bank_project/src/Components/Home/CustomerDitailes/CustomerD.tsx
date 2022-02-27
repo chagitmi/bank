@@ -3,6 +3,7 @@ import { Link ,NavLink} from "react-router-dom";
 import Customer from "../../../Data/Customer";
 import Movement from "../../../Data/Movement";
 import MovementList from "../../../Data/MovementList";
+import './CustomerD.css';
 
 interface CustomerProps {
     customer: Customer;
@@ -23,7 +24,7 @@ class CustomerD extends Component<CustomerProps>
                 <p>{this.props.customer.customerSumA}</p>
                 <p>
                     <NavLink to={`/MovementD/${this.props.customer.customerAccount}`}>
-                        <button>Recent movements</button>
+                        <button className="CustomerDMovement">Show my movements</button>
                     </NavLink>
                 </p>
             </div>
