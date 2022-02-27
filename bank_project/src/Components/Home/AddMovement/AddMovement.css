@@ -1,0 +1,31 @@
+.AddMovement{
+
+    color: darkblue;
+    background-image: url('C:/Users/com/Desktop/Project/home.JPG');
+    width: 1000px;;
+    height: 500px;
+}
+.AddMovementAttraction{
+    background-image: url('C:/Users/com/Desktop/Project/appImg.JPG');
+    color: darkblue;
+    width: 150px;
+    height: 40px;
+    border-color: darkblue;
+    border-radius: 10px;
+    font-weight: bolder;
+   text-align: right;
+  margin-top: 20px;
+  margin-left: 5px;
+}
+.AddMovementDeposit{
+    background-image: url('C:/Users/com/Desktop/Project/depositImg.JPG');
+    color: darkblue;
+    width: 150px;
+    height: 40px;
+    border-color: darkblue;
+    border-radius: 10px;
+    font-weight: bolder;
+   text-align: right;
+  margin-top: 20px;
+  margin-left: 5px;
+}
